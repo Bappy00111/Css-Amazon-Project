@@ -1,5 +1,6 @@
 *{
     margin: 0;
+    padding: 0;
     font-family: Arial, Helvetica, sans-serif;
    box-sizing: border-box;
 }
@@ -101,4 +102,28 @@ span{
     font-size: 0.85rem;
     font-weight: 700;
     
+}
+
+/* penal  */
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.panel-optional p{
+    display: inline;
+    margin-right: 10px;
+}
+.panel-optional{
+    width: 70%;
+    font-size: 0.85rem;
+    
+}
+
+.penel-dell{
+    font-size: 1rem;
+    font-weight: 700;
 }

@@ -148,3 +148,32 @@ span{
     margin-bottom: 25px;
    
 }
+
+/** shoping card **/
+.shop-section{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+.box{
+    /* border: 2px solid black; */
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 10px;
+}
+.box-image{
+    background-size: cover;
+    height: 300px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.box-text{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.box-text p{
+    color: #007185;
+}

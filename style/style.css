@@ -155,6 +155,8 @@ span{
     flex-wrap: wrap;
     justify-content: space-evenly;
     background-color: #e2e7e6;
+    margin-bottom: 40px;
+   
 }
 .box{
     /* border: 2px solid black; */
@@ -176,4 +178,37 @@ span{
 }
 .box-text p{
     color: #007185;
+}
+
+/** Footer section **/
+.footer-pane1{
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+}
+.footer-panel2{
+    height: 300px;
+    background-color: #222f3d;
+    color: white;
+   
+ 
+}
+.footer-container{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+li{
+    list-style: none;
+    font-size: 0.80rem;
+    margin-top: 10px;
+    color: #dddddd;
+}
+.footer-section{
+    margin-top: 30px;
 }
